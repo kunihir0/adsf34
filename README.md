@@ -9,8 +9,8 @@ A utility tool to enable unrestricted features in GitHub Copilot Chat extensions
 This tool scans your VS Code extensions directory (or custom specified path) for GitHub Copilot Chat installations and modifies them to:
 
 1. Enable all models for LM API usage by removing authentication restrictions
-2. Enable BYOK (Bring Your Own Key) feature, which is normally restricted to Business and Enterprise users
-3. Enable CodeReview features for all users
+2. Enable BYOK (Bring Your Own Key) feature for Business and Enterprise users
+3. Enable CodeReview features for free users
 
 ## How to Use
 
