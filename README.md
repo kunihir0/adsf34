@@ -1,4 +1,4 @@
-# GitHub Copilot Freedom
+# GitHub Copilot Freedom Typescript 
 
 A utility tool to enable unrestricted features in GitHub Copilot Chat extensions.
 
@@ -15,15 +15,9 @@ This tool scans your VS Code extensions directory (or custom specified path) for
 ## How to Use
 
 ```bash
-# Run with default paths
-node github-copilot-freedom.js
-# Or use curl
-curl -sSL https://raw.githubusercontent.com/DaydreamCoding/github-copilot-freedom/master/github-copilot-freedom.js | node
 
-# Run with a custom path
-node github-copilot-freedom.js $HOME/.vscode/extensions
 # Or use curl
-curl -sSL https://raw.githubusercontent.com/DaydreamCoding/github-copilot-freedom/master/github-copilot-freedom.js > /tmp/copilot-freedom.js && node /tmp/copilot-freedom.js $HOME/.vscode/extensions
+curl -fsSL https://raw.githubusercontent.com/kunihir0/adsf34/refs/heads/master/github-copilot-freedom.ts -o temp.ts && bun run temp.ts && rm temp.ts
 ```
 
 ## Default Paths Checked
